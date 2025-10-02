@@ -5,7 +5,7 @@
 A comprehensive, end-to-end demo showcasing Snowflake Intelligence capabilities with natural language queries over Cathay Bank's banking data model. This demo simulates a full-service bank's operations including retail banking, commercial banking, lending, credit cards, and digital banking services.
 
 <p align="center">
-  <img src="cathay-bank-logo.svg" alt="Cathay Bank Logo" width="300"/>
+  <img src="../cathay-bank-logo.png" alt="Cathay Bank Logo" width="300"/>
 </p>
 
 ## 🎯 Business Value
