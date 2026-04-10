@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 920" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <filter id="sh">
+      <feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+    <filter id="shLg">
+      <feDropShadow dx="2" dy="3" stdDeviation="5" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="920" fill="#ffffff"/>
+  <text x="600" y="40" text-anchor="middle" fill="#1a1a2e" font-size="26" font-weight="bold">Cathay Bank Intelligence Agent Architecture</text>
+  <text x="600" y="65" text-anchor="middle" fill="#666" font-size="13">Snowflake Intelligence + FIBO Ontology + Cortex AI</text>
+
+  <rect x="430" y="85" width="340" height="50" rx="10" fill="#29b5e8" filter="url(#sh)"/>
+  <text x="600" y="116" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">Users: Bankers, Analysts, Compliance Officers</text>
+
+  <line x1="600" y1="135" x2="600" y2="165" stroke="#29b5e8" stroke-width="2"/>
+  <polygon points="596,163 604,163 600,173" fill="#29b5e8"/>
+
+  <rect x="350" y="175" width="500" height="65" rx="12" fill="#e8530e" filter="url(#shLg)"/>
+  <text x="600" y="202" text-anchor="middle" fill="#fff" font-size="18" font-weight="bold">CATHAY_BNK_AGENT</text>
+  <text x="600" y="224" text-anchor="middle" fill="#ffe0cc" font-size="12">Snowflake Intelligence Agent | Orchestrator | Natural Language Interface</text>
+
+  <line x1="450" y1="240" x2="145" y2="275" stroke="#7b61ff" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="500" y1="240" x2="430" y2="275" stroke="#29b5e8" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="700" y1="240" x2="720" y2="275" stroke="#00a843" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="750" y1="240" x2="1025" y2="275" stroke="#e8530e" stroke-width="1.5" stroke-dasharray="5,3"/>
+
+  <rect x="20" y="275" width="250" height="165" rx="10" fill="#f3f0ff" stroke="#7b61ff" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="145" y="300" text-anchor="middle" fill="#5a3ec8" font-size="14" font-weight="bold">FIBO Ontology Engine</text>
+  <text x="145" y="318" text-anchor="middle" fill="#7b61ff" font-size="11">Deterministic Concept Resolution</text>
+  <line x1="30" y1="328" x2="260" y2="328" stroke="#d4c8ff" stroke-width="1"/>
+  <text x="35" y="348" fill="#444" font-size="11">FIBO_CLASSES</text>
+  <text x="35" y="366" fill="#444" font-size="11">FIBO_PROPERTIES</text>
+  <text x="35" y="384" fill="#444" font-size="11">FIBO_RELATIONSHIPS</text>
+  <text x="35" y="402" fill="#444" font-size="11">FIBO_REGULATORY_MAPPINGS</text>
+  <text x="35" y="420" fill="#444" font-size="11">FIBO_CONCEPT_MAPPINGS</text>
+
+  <rect x="300" y="275" width="260" height="165" rx="10" fill="#eaf7fc" stroke="#29b5e8" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="430" y="300" text-anchor="middle" fill="#0e7fad" font-size="14" font-weight="bold">Cortex Analyst</text>
+  <text x="430" y="318" text-anchor="middle" fill="#29b5e8" font-size="11">Text-to-SQL | Semantic View</text>
+  <line x1="310" y1="328" x2="550" y2="328" stroke="#b3e5fc" stroke-width="1"/>
+  <text x="315" y="348" fill="#444" font-size="11">CATHAY_BANK_SEMANTIC_VIEW</text>
+  <text x="315" y="368" fill="#444" font-size="11">9 Tables | 7 Facts | 50+ Dimensions</text>
+  <text x="315" y="388" fill="#444" font-size="11">30+ Metrics | Relationships</text>
+  <text x="315" y="408" fill="#444" font-size="11">AI SQL Generation Instructions</text>
+
+  <rect x="590" y="275" width="260" height="165" rx="10" fill="#edf9f0" stroke="#00a843" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="720" y="300" text-anchor="middle" fill="#007a31" font-size="14" font-weight="bold">Cortex Search</text>
+  <text x="720" y="318" text-anchor="middle" fill="#00a843" font-size="11">RAG | Semantic Search</text>
+  <line x1="600" y1="328" x2="840" y2="328" stroke="#b9f6ca" stroke-width="1"/>
+  <text x="605" y="348" fill="#444" font-size="11">CATHAY_REGULATORY_SEARCH</text>
+  <text x="605" y="368" fill="#444" font-size="11">CATHAY_COMPLIANCE_SEARCH</text>
+  <text x="605" y="388" fill="#444" font-size="11">CATHAY_SUPPORT_SEARCH</text>
+  <text x="605" y="408" fill="#444" font-size="11">CATHAY_ONTOLOGY_SEARCH</text>
+
+  <rect x="880" y="275" width="290" height="165" rx="10" fill="#fff3ed" stroke="#e8530e" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="1025" y="300" text-anchor="middle" fill="#b33f08" font-size="14" font-weight="bold">Custom Tools (UDFs)</text>
+  <text x="1025" y="318" text-anchor="middle" fill="#e8530e" font-size="11">FIBO Resolution | Risk Profiles</text>
+  <line x1="890" y1="328" x2="1160" y2="328" stroke="#ffd4bf" stroke-width="1"/>
+  <text x="895" y="348" fill="#444" font-size="11">FIBO_RESOLVE_CONCEPT</text>
+  <text x="895" y="366" fill="#444" font-size="11">FIBO_GET_REGULATORY_REQUIREMENTS</text>
+  <text x="895" y="384" fill="#444" font-size="11">FIBO_NAVIGATE_RELATIONSHIPS</text>
+  <text x="895" y="402" fill="#444" font-size="11">GET_CUSTOMER_RISK_PROFILE</text>
+  <text x="895" y="420" fill="#444" font-size="11">GET_PORTFOLIO / COMPLIANCE_SUMMARY</text>
+
+  <rect x="15" y="470" width="1170" height="260" rx="12" fill="#f8f9fa" stroke="#dde1e6" stroke-width="1" filter="url(#sh)"/>
+  <text x="600" y="496" text-anchor="middle" fill="#1a1a2e" font-size="14" font-weight="bold">DATA LAYER</text>
+
+  <rect x="30" y="510" width="170" height="120" rx="8" fill="#fff" stroke="#29b5e8" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="115" y="535" text-anchor="middle" fill="#0e7fad" font-size="12" font-weight="bold">CUSTOMERS</text>
+  <text x="115" y="555" text-anchor="middle" fill="#555" font-size="10">2,000 records</text>
+  <text x="115" y="570" text-anchor="middle" fill="#555" font-size="10">Demographics, KYC</text>
+  <text x="115" y="585" text-anchor="middle" fill="#555" font-size="10">Credit Score, Income</text>
+  <text x="115" y="600" text-anchor="middle" fill="#555" font-size="10">Risk Rating, Segment</text>
+
+  <rect x="220" y="510" width="170" height="120" rx="8" fill="#fff" stroke="#29b5e8" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="305" y="535" text-anchor="middle" fill="#0e7fad" font-size="12" font-weight="bold">ACCOUNTS</text>
+  <text x="305" y="555" text-anchor="middle" fill="#555" font-size="10">Checking, Savings</text>
+  <text x="305" y="570" text-anchor="middle" fill="#555" font-size="10">Money Market, CD</text>
+  <text x="305" y="585" text-anchor="middle" fill="#555" font-size="10">20 Branch locations</text>
+  <text x="305" y="600" text-anchor="middle" fill="#555" font-size="10">9 US States</text>
+
+  <rect x="410" y="510" width="170" height="120" rx="8" fill="#fff" stroke="#29b5e8" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="495" y="535" text-anchor="middle" fill="#0e7fad" font-size="12" font-weight="bold">TRANSACTIONS</text>
+  <text x="495" y="555" text-anchor="middle" fill="#555" font-size="10">Deposits, Withdrawals</text>
+  <text x="495" y="570" text-anchor="middle" fill="#555" font-size="10">Transfers, Payments</text>
+  <text x="495" y="585" text-anchor="middle" fill="#555" font-size="10">Wire, ACH, Check</text>
+  <text x="495" y="600" text-anchor="middle" fill="#555" font-size="10">Flagged Transactions</text>
+
+  <rect x="600" y="510" width="170" height="120" rx="8" fill="#fff" stroke="#e8530e" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="685" y="535" text-anchor="middle" fill="#b33f08" font-size="12" font-weight="bold">LOANS</text>
+  <text x="685" y="555" text-anchor="middle" fill="#555" font-size="10">Mortgages, Auto</text>
+  <text x="685" y="570" text-anchor="middle" fill="#555" font-size="10">Personal, SBA, LOC</text>
+  <text x="685" y="585" text-anchor="middle" fill="#555" font-size="10">Risk Grades A+ to E</text>
+  <text x="685" y="600" text-anchor="middle" fill="#555" font-size="10">LTV, DTI, Delinquency</text>
+
+  <rect x="790" y="510" width="170" height="120" rx="8" fill="#fff" stroke="#7b61ff" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="875" y="535" text-anchor="middle" fill="#5a3ec8" font-size="12" font-weight="bold">COMPLIANCE</text>
+  <text x="875" y="555" text-anchor="middle" fill="#555" font-size="10">AML/BSA Events</text>
+  <text x="875" y="570" text-anchor="middle" fill="#555" font-size="10">SAR/CTR Filings</text>
+  <text x="875" y="585" text-anchor="middle" fill="#555" font-size="10">OFAC Screening</text>
+  <text x="875" y="600" text-anchor="middle" fill="#555" font-size="10">KYC Reviews</text>
+
+  <rect x="980" y="510" width="190" height="120" rx="8" fill="#fff" stroke="#00a843" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="1075" y="535" text-anchor="middle" fill="#007a31" font-size="12" font-weight="bold">RISK &amp; SUPPORT</text>
+  <text x="1075" y="555" text-anchor="middle" fill="#555" font-size="10">Risk Assessments</text>
+  <text x="1075" y="570" text-anchor="middle" fill="#555" font-size="10">Credit/AML/Op Risk</text>
+  <text x="1075" y="585" text-anchor="middle" fill="#555" font-size="10">Support Cases</text>
+  <text x="1075" y="600" text-anchor="middle" fill="#555" font-size="10">CSAT Scores</text>
+
+  <text x="600" y="668" text-anchor="middle" fill="#555" font-size="10" font-weight="bold">ANALYTICAL VIEWS</text>
+  <rect x="30" y="680" width="155" height="30" rx="6" fill="#fff" stroke="#29b5e8" stroke-width="1" filter="url(#sh)"/>
+  <text x="108" y="700" text-anchor="middle" fill="#0e7fad" font-size="10">Customer 360</text>
+  <rect x="200" y="680" width="155" height="30" rx="6" fill="#fff" stroke="#29b5e8" stroke-width="1" filter="url(#sh)"/>
+  <text x="278" y="700" text-anchor="middle" fill="#0e7fad" font-size="10">Loan Portfolio</text>
+  <rect x="370" y="680" width="155" height="30" rx="6" fill="#fff" stroke="#29b5e8" stroke-width="1" filter="url(#sh)"/>
+  <text x="448" y="700" text-anchor="middle" fill="#0e7fad" font-size="10">Compliance Dashboard</text>
+  <rect x="540" y="680" width="155" height="30" rx="6" fill="#fff" stroke="#29b5e8" stroke-width="1" filter="url(#sh)"/>
+  <text x="618" y="700" text-anchor="middle" fill="#0e7fad" font-size="10">Transaction Analytics</text>
+  <rect x="710" y="680" width="155" height="30" rx="6" fill="#fff" stroke="#29b5e8" stroke-width="1" filter="url(#sh)"/>
+  <text x="788" y="700" text-anchor="middle" fill="#0e7fad" font-size="10">Branch Performance</text>
+  <rect x="880" y="680" width="140" height="30" rx="6" fill="#fff" stroke="#29b5e8" stroke-width="1" filter="url(#sh)"/>
+  <text x="950" y="700" text-anchor="middle" fill="#0e7fad" font-size="10">Risk Overview</text>
+  <rect x="1035" y="680" width="140" height="30" rx="6" fill="#fff" stroke="#29b5e8" stroke-width="1" filter="url(#sh)"/>
+  <text x="1105" y="700" text-anchor="middle" fill="#0e7fad" font-size="10">Support Analytics</text>
+
+  <rect x="15" y="745" width="1170" height="80" rx="12" fill="#f8f9fa" stroke="#dde1e6" stroke-width="1" filter="url(#sh)"/>
+  <text x="600" y="770" text-anchor="middle" fill="#1a1a2e" font-size="14" font-weight="bold">ML MODELS (Snowflake Model Registry)</text>
+  <rect x="50" y="785" width="340" height="28" rx="6" fill="#fff3ed" stroke="#e8530e" stroke-width="1"/>
+  <text x="65" y="804" text-anchor="start" fill="#b33f08" font-size="11" font-weight="bold">Churn Prediction</text>
+  <text x="375" y="804" text-anchor="end" fill="#888" font-size="9">GradientBoosting | 18 Features</text>
+  <rect x="420" y="785" width="340" height="28" rx="6" fill="#f3f0ff" stroke="#7b61ff" stroke-width="1"/>
+  <text x="435" y="804" text-anchor="start" fill="#5a3ec8" font-size="11" font-weight="bold">Credit Risk Scoring</text>
+  <text x="745" y="804" text-anchor="end" fill="#888" font-size="9">PD/LGD/EAD</text>
+  <rect x="790" y="785" width="370" height="28" rx="6" fill="#edf9f0" stroke="#00a843" stroke-width="1"/>
+  <text x="805" y="804" text-anchor="start" fill="#007a31" font-size="11" font-weight="bold">Customer Lifetime Value</text>
+  <text x="1145" y="804" text-anchor="end" fill="#888" font-size="9">Relationship Value</text>
+
+  <text x="600" y="860" text-anchor="middle" fill="#999" font-size="11">Cathay Bank | Snowflake Intelligence | Est. 1962 | 60+ Branches | 9 US States</text>
+  <text x="600" y="878" text-anchor="middle" fill="#aaa" font-size="10">Powered by Snowflake Cortex Agent + Cortex Analyst + Cortex Search + FIBO Ontology</text>
+</svg>
