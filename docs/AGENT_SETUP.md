@@ -130,7 +130,7 @@ Creates 6 SQL UDFs in `CATHAY_BANK_DB.ANALYTICS`:
 ### Step 10: Create the Agent
 **File:** `sql/agent/10_create_agent.sql`
 
-Creates `CATHAY_BNK_AGENT` with:
+Creates `CATHAY_BANK_AGENT` with:
 - 1 Cortex Analyst tool (semantic view)
 - 4 Cortex Search tools (regulatory, compliance, support, ontology)
 - 6 custom tools (FIBO resolution, risk profiles, summaries)

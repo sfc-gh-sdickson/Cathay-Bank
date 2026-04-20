@@ -46,7 +46,7 @@ With our headquarters in Los Angeles, we continue to serve our communities acros
 | `{CUSTOMER_NAME_UPPER}` | Uppercase for SQL objects | CATHAY_BANK |
 | `{DATABASE_NAME}` | Main database name | CATHAY_BANK_DB |
 | `{WAREHOUSE_NAME}` | Warehouse name | CATHAY_BANK_WH |
-| `{AGENT_NAME}` | Agent identifier | CATHAY_BNK_AGENT |
+| `{AGENT_NAME}` | Agent identifier | CATHAY_BANK_AGENT |
 | `{BUSINESS_DOMAIN}` | Customer's business focus | Financial Banking Systems |
 | `{WEB_PRESENCE}`  | Web Address | https://www.CATHAYBANK.com/
 

@@ -18,7 +18,7 @@
   <polygon points="596,163 604,163 600,173" fill="#29b5e8"/>
 
   <rect x="350" y="175" width="500" height="65" rx="12" fill="#e8530e" filter="url(#shLg)"/>
-  <text x="600" y="202" text-anchor="middle" fill="#fff" font-size="18" font-weight="bold">CATHAY_BNK_AGENT</text>
+  <text x="600" y="202" text-anchor="middle" fill="#fff" font-size="18" font-weight="bold">CATHAY_BANK_AGENT</text>
   <text x="600" y="224" text-anchor="middle" fill="#ffe0cc" font-size="12">Snowflake Intelligence Agent | Orchestrator | Natural Language Interface</text>
 
   <line x1="450" y1="240" x2="145" y2="275" stroke="#7b61ff" stroke-width="1.5" stroke-dasharray="5,3"/>
