@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1000" font-family="Segoe UI, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1070" font-family="Segoe UI, Arial, sans-serif">
   <defs>
     <filter id="sh">
       <feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.12"/>
@@ -70,9 +70,9 @@
   <!-- ==================== TOOL BOXES ==================== -->
 
   <!-- Tool 1: FIBO Ontology -->
-  <rect x="20" y="275" width="175" height="110" rx="10" fill="#f3f0ff" stroke="#7b61ff" stroke-width="1.5" filter="url(#sh)"/>
-  <text x="108" y="298" text-anchor="middle" fill="#5a3ec8" font-size="13" font-weight="bold">FIBO Ontology</text>
-  <line x1="30" y1="306" x2="185" y2="306" stroke="#d4c8ff" stroke-width="1"/>
+  <rect x="20" y="275" width="240" height="110" rx="10" fill="#f3f0ff" stroke="#7b61ff" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="140" y="298" text-anchor="middle" fill="#5a3ec8" font-size="13" font-weight="bold">FIBO Ontology (Deterministic)</text>
+  <line x1="30" y1="306" x2="250" y2="306" stroke="#d4c8ff" stroke-width="1"/>
   <text x="35" y="324" fill="#444" font-size="10">WHEN: "What is...", "Define..."</text>
   <text x="35" y="340" fill="#444" font-size="10">"Regulatory meaning of..."</text>
   <text x="35" y="356" fill="#444" font-size="10">"FIBO class for..."</text>
@@ -80,7 +80,7 @@
 
   <!-- Tool 2: Cortex Analyst -->
   <rect x="215" y="465" width="230" height="130" rx="10" fill="#eaf7fc" stroke="#29b5e8" stroke-width="1.5" filter="url(#sh)"/>
-  <text x="330" y="488" text-anchor="middle" fill="#0e7fad" font-size="13" font-weight="bold">Cortex Analyst</text>
+  <text x="330" y="488" text-anchor="middle" fill="#0e7fad" font-size="13" font-weight="bold">Cortex Analyst (Probabilistic)</text>
   <text x="330" y="504" text-anchor="middle" fill="#29b5e8" font-size="10">Text-to-SQL via Semantic View</text>
   <line x1="225" y1="512" x2="435" y2="512" stroke="#b3e5fc" stroke-width="1"/>
   <text x="230" y="530" fill="#444" font-size="10">WHEN: "How many...", "Total..."</text>
@@ -90,7 +90,7 @@
 
   <!-- Tool 3: Cortex Search -->
   <rect x="755" y="465" width="230" height="130" rx="10" fill="#edf9f0" stroke="#00a843" stroke-width="1.5" filter="url(#sh)"/>
-  <text x="870" y="488" text-anchor="middle" fill="#007a31" font-size="13" font-weight="bold">Cortex Search</text>
+  <text x="870" y="488" text-anchor="middle" fill="#007a31" font-size="13" font-weight="bold">Cortex Search (Probabilistic)</text>
   <text x="870" y="504" text-anchor="middle" fill="#00a843" font-size="10">RAG / Semantic Search</text>
   <line x1="765" y1="512" x2="975" y2="512" stroke="#b9f6ca" stroke-width="1"/>
   <text x="770" y="530" fill="#444" font-size="10">WHEN: "What is our policy on..."</text>
@@ -100,7 +100,7 @@
 
   <!-- Tool 4: Custom UDFs -->
   <rect x="905" y="275" width="275" height="110" rx="10" fill="#fff3ed" stroke="#e8530e" stroke-width="1.5" filter="url(#sh)"/>
-  <text x="1043" y="298" text-anchor="middle" fill="#b33f08" font-size="13" font-weight="bold">Custom Tools (UDFs)</text>
+  <text x="1043" y="298" text-anchor="middle" fill="#b33f08" font-size="13" font-weight="bold">Custom Tools (UDFs) (Probabilistic)</text>
   <line x1="915" y1="306" x2="1170" y2="306" stroke="#ffd4bf" stroke-width="1"/>
   <text x="920" y="324" fill="#444" font-size="10">WHEN: "Risk profile for customer X"</text>
   <text x="920" y="340" fill="#444" font-size="10">"Navigate FIBO relationships"</text>
@@ -108,7 +108,7 @@
   <text x="920" y="372" fill="#444" font-size="10">"Compliance summary for..."</text>
 
   <!-- ==================== MULTI-TOOL SECTION ==================== -->
-  <rect x="100" y="630" width="1000" height="195" rx="12" fill="#f8f9fa" stroke="#dde1e6" stroke-width="1" filter="url(#sh)"/>
+  <rect x="100" y="630" width="1000" height="260" rx="12" fill="#f8f9fa" stroke="#dde1e6" stroke-width="1" filter="url(#sh)"/>
   <text x="600" y="656" text-anchor="middle" fill="#1a1a2e" font-size="14" font-weight="bold">MULTI-TOOL CHAINING (Complex Queries)</text>
   <text x="600" y="674" text-anchor="middle" fill="#888" font-size="11">Agent chains multiple tools when a single tool cannot fully answer the query</text>
 
@@ -137,49 +137,73 @@
   <text x="903" y="731" text-anchor="middle" fill="#5a3ec8" font-size="9" font-weight="bold">3. Ontology</text>
 
   <!-- Example 3 -->
-  <rect x="120" y="755" width="460" height="55" rx="8" fill="#fff" stroke="#00a843" stroke-width="1" filter="url(#sh)"/>
-  <text x="135" y="775" fill="#1a1a2e" font-size="11" font-weight="bold">"Summarize CRA compliance for our LA branches"</text>
-  <rect x="135" y="783" width="110" height="18" rx="4" fill="#edf9f0" stroke="#00a843" stroke-width="0.5"/>
-  <text x="190" y="796" text-anchor="middle" fill="#007a31" font-size="9" font-weight="bold">1. Search (CRA)</text>
-  <text x="255" y="796" fill="#888" font-size="10">&gt;</text>
-  <rect x="265" y="783" width="85" height="18" rx="4" fill="#eaf7fc" stroke="#29b5e8" stroke-width="0.5"/>
-  <text x="308" y="796" text-anchor="middle" fill="#0e7fad" font-size="9" font-weight="bold">2. Analyst</text>
-  <text x="360" y="796" fill="#888" font-size="10">&gt;</text>
-  <rect x="370" y="783" width="125" height="18" rx="4" fill="#fff3ed" stroke="#e8530e" stroke-width="0.5"/>
-  <text x="433" y="796" text-anchor="middle" fill="#b33f08" font-size="9" font-weight="bold">3. Compliance UDF</text>
+  <rect x="120" y="755" width="460" height="55" rx="8" fill="#fff" stroke="#7b61ff" stroke-width="1" filter="url(#sh)"/>
+  <text x="135" y="775" fill="#1a1a2e" font-size="11" font-weight="bold">"Define collateral in FIBO and show our collateral totals"</text>
+  <rect x="135" y="783" width="95" height="18" rx="4" fill="#f3f0ff" stroke="#7b61ff" stroke-width="0.5"/>
+  <text x="183" y="796" text-anchor="middle" fill="#5a3ec8" font-size="9" font-weight="bold">1. Ontology</text>
+  <text x="240" y="796" fill="#888" font-size="10">&gt;</text>
+  <rect x="250" y="783" width="85" height="18" rx="4" fill="#eaf7fc" stroke="#29b5e8" stroke-width="0.5"/>
+  <text x="293" y="796" text-anchor="middle" fill="#0e7fad" font-size="9" font-weight="bold">2. Analyst</text>
+  <text x="345" y="796" fill="#888" font-size="10">&gt;</text>
+  <rect x="355" y="783" width="95" height="18" rx="4" fill="#f3f0ff" stroke="#7b61ff" stroke-width="0.5"/>
+  <text x="403" y="796" text-anchor="middle" fill="#5a3ec8" font-size="9" font-weight="bold">3. Ontology</text>
 
   <!-- Example 4 -->
-  <rect x="620" y="755" width="460" height="55" rx="8" fill="#fff" stroke="#e8530e" stroke-width="1" filter="url(#sh)"/>
-  <text x="635" y="775" fill="#1a1a2e" font-size="11" font-weight="bold">"Customer 12345 risk profile with regulatory context"</text>
-  <rect x="635" y="783" width="85" height="18" rx="4" fill="#fff3ed" stroke="#e8530e" stroke-width="0.5"/>
-  <text x="678" y="796" text-anchor="middle" fill="#b33f08" font-size="9" font-weight="bold">1. Risk UDF</text>
-  <text x="730" y="796" fill="#888" font-size="10">&gt;</text>
-  <rect x="740" y="783" width="85" height="18" rx="4" fill="#eaf7fc" stroke="#29b5e8" stroke-width="0.5"/>
-  <text x="783" y="796" text-anchor="middle" fill="#0e7fad" font-size="9" font-weight="bold">2. Analyst</text>
-  <text x="835" y="796" fill="#888" font-size="10">&gt;</text>
-  <rect x="845" y="783" width="110" height="18" rx="4" fill="#edf9f0" stroke="#00a843" stroke-width="0.5"/>
-  <text x="900" y="796" text-anchor="middle" fill="#007a31" font-size="9" font-weight="bold">3. Search (Reg)</text>
+  <rect x="620" y="755" width="460" height="55" rx="8" fill="#fff" stroke="#7b61ff" stroke-width="1" filter="url(#sh)"/>
+  <text x="635" y="775" fill="#1a1a2e" font-size="11" font-weight="bold">"How does FIBO classify our CRA-eligible loans?"</text>
+  <rect x="635" y="783" width="95" height="18" rx="4" fill="#f3f0ff" stroke="#7b61ff" stroke-width="0.5"/>
+  <text x="683" y="796" text-anchor="middle" fill="#5a3ec8" font-size="9" font-weight="bold">1. Ontology</text>
+  <text x="740" y="796" fill="#888" font-size="10">&gt;</text>
+  <rect x="750" y="783" width="110" height="18" rx="4" fill="#edf9f0" stroke="#00a843" stroke-width="0.5"/>
+  <text x="805" y="796" text-anchor="middle" fill="#007a31" font-size="9" font-weight="bold">2. Search (CRA)</text>
+  <text x="870" y="796" fill="#888" font-size="10">&gt;</text>
+  <rect x="880" y="783" width="85" height="18" rx="4" fill="#eaf7fc" stroke="#29b5e8" stroke-width="0.5"/>
+  <text x="923" y="796" text-anchor="middle" fill="#0e7fad" font-size="9" font-weight="bold">3. Analyst</text>
+
+  <!-- Example 5 -->
+  <rect x="120" y="820" width="460" height="55" rx="8" fill="#fff" stroke="#7b61ff" stroke-width="1" filter="url(#sh)"/>
+  <text x="135" y="840" fill="#1a1a2e" font-size="11" font-weight="bold">"FIBO relationships for derivative instruments we hold"</text>
+  <rect x="135" y="848" width="95" height="18" rx="4" fill="#f3f0ff" stroke="#7b61ff" stroke-width="0.5"/>
+  <text x="183" y="861" text-anchor="middle" fill="#5a3ec8" font-size="9" font-weight="bold">1. Ontology</text>
+  <text x="240" y="861" fill="#888" font-size="10">&gt;</text>
+  <rect x="250" y="848" width="85" height="18" rx="4" fill="#eaf7fc" stroke="#29b5e8" stroke-width="0.5"/>
+  <text x="293" y="861" text-anchor="middle" fill="#0e7fad" font-size="9" font-weight="bold">2. Analyst</text>
+  <text x="345" y="861" fill="#888" font-size="10">&gt;</text>
+  <rect x="355" y="848" width="95" height="18" rx="4" fill="#fff3ed" stroke="#e8530e" stroke-width="0.5"/>
+  <text x="403" y="861" text-anchor="middle" fill="#b33f08" font-size="9" font-weight="bold">3. FIBO UDF</text>
+
+  <!-- Example 6 -->
+  <rect x="620" y="820" width="460" height="55" rx="8" fill="#fff" stroke="#e8530e" stroke-width="1" filter="url(#sh)"/>
+  <text x="635" y="840" fill="#1a1a2e" font-size="11" font-weight="bold">"Customer 12345 risk profile with regulatory context"</text>
+  <rect x="635" y="848" width="85" height="18" rx="4" fill="#fff3ed" stroke="#e8530e" stroke-width="0.5"/>
+  <text x="678" y="861" text-anchor="middle" fill="#b33f08" font-size="9" font-weight="bold">1. Risk UDF</text>
+  <text x="730" y="861" fill="#888" font-size="10">&gt;</text>
+  <rect x="740" y="848" width="85" height="18" rx="4" fill="#eaf7fc" stroke="#29b5e8" stroke-width="0.5"/>
+  <text x="783" y="861" text-anchor="middle" fill="#0e7fad" font-size="9" font-weight="bold">2. Analyst</text>
+  <text x="835" y="861" fill="#888" font-size="10">&gt;</text>
+  <rect x="845" y="848" width="110" height="18" rx="4" fill="#edf9f0" stroke="#00a843" stroke-width="0.5"/>
+  <text x="900" y="861" text-anchor="middle" fill="#007a31" font-size="9" font-weight="bold">3. Search (Reg)</text>
 
   <!-- ==================== DECISION SIGNALS LEGEND ==================== -->
-  <rect x="100" y="850" width="1000" height="120" rx="12" fill="#f8f9fa" stroke="#dde1e6" stroke-width="1" filter="url(#sh)"/>
-  <text x="600" y="876" text-anchor="middle" fill="#1a1a2e" font-size="14" font-weight="bold">DECISION SIGNALS</text>
-  <text x="600" y="894" text-anchor="middle" fill="#888" font-size="11">How the Agent determines which tool to invoke</text>
+  <rect x="100" y="915" width="1000" height="120" rx="12" fill="#f8f9fa" stroke="#dde1e6" stroke-width="1" filter="url(#sh)"/>
+  <text x="600" y="941" text-anchor="middle" fill="#1a1a2e" font-size="14" font-weight="bold">DECISION SIGNALS</text>
+  <text x="600" y="959" text-anchor="middle" fill="#888" font-size="11">How the Agent determines which tool to invoke</text>
 
-  <circle cx="155" cy="925" r="8" fill="#7b61ff"/>
-  <text x="170" y="930" fill="#444" font-size="11" font-weight="bold">Ontology:</text>
-  <text x="240" y="930" fill="#666" font-size="10">Definitional keywords, "what is", FIBO terms, regulatory concepts</text>
+  <circle cx="155" cy="990" r="8" fill="#7b61ff"/>
+  <text x="170" y="995" fill="#444" font-size="11" font-weight="bold">Ontology:</text>
+  <text x="240" y="995" fill="#666" font-size="10">Definitional keywords, "what is", FIBO terms, regulatory concepts</text>
 
-  <circle cx="155" cy="950" r="8" fill="#29b5e8"/>
-  <text x="170" y="955" fill="#444" font-size="11" font-weight="bold">Analyst:</text>
-  <text x="228" y="955" fill="#666" font-size="10">Quantitative keywords, aggregations, counts, filters, "show me", "how many"</text>
+  <circle cx="155" cy="1015" r="8" fill="#29b5e8"/>
+  <text x="170" y="1020" fill="#444" font-size="11" font-weight="bold">Analyst:</text>
+  <text x="228" y="1020" fill="#666" font-size="10">Quantitative keywords, aggregations, counts, filters, "show me", "how many"</text>
 
-  <circle cx="650" cy="925" r="8" fill="#00a843"/>
-  <text x="665" y="930" fill="#444" font-size="11" font-weight="bold">Search:</text>
-  <text x="718" y="930" fill="#666" font-size="10">Policy/regulation references, "find docs", unstructured knowledge</text>
+  <circle cx="650" cy="990" r="8" fill="#00a843"/>
+  <text x="665" y="995" fill="#444" font-size="11" font-weight="bold">Search:</text>
+  <text x="718" y="995" fill="#666" font-size="10">Policy/regulation references, "find docs", unstructured knowledge</text>
 
-  <circle cx="650" cy="950" r="8" fill="#e8530e"/>
-  <text x="665" y="955" fill="#444" font-size="11" font-weight="bold">UDFs:</text>
-  <text x="705" y="955" fill="#666" font-size="10">Entity-specific lookups, risk profiles, FIBO resolution, compliance checks</text>
+  <circle cx="650" cy="1015" r="8" fill="#e8530e"/>
+  <text x="665" y="1020" fill="#444" font-size="11" font-weight="bold">UDFs:</text>
+  <text x="705" y="1020" fill="#666" font-size="10">Entity-specific lookups, risk profiles, FIBO resolution, compliance checks</text>
 
-  <text x="600" y="990" text-anchor="middle" fill="#aaa" font-size="10">Cathay Bank Intelligence Agent | Tool Routing Logic | Powered by Snowflake Cortex</text>
+  <text x="600" y="1055" text-anchor="middle" fill="#aaa" font-size="10">Cathay Bank Intelligence Agent | Tool Routing Logic | Powered by Snowflake Cortex</text>
 </svg>
